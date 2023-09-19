@@ -1,0 +1,59 @@
+/* Estilo do projeto */
+/* Ícones do Bootstrap */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+/* Fontes do Google */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, rgb(32, 63, 197), rgb(177, 69, 159));
+}
+
+form {
+    width: 30%;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0 0 16px black;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 4px 4px 8px black;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    min-width: 150px; /* TAMANHO MÍNIMO */
+    margin-bottom: 16px;
+}
+
+button:hover {
+    background-color: #333;
+    color: aliceblue;
+}
+input[type="text"], select{
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 16px;
+    font-size: 16px;   
+    border-radius: 8px;
+}
